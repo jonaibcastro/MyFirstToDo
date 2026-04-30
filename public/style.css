@@ -1,0 +1,271 @@
+/* ───────────────────────────────────────
+   RESET E BASE
+─────────────────────────────────────── */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    background-color: #cdddf5;
+    color: #333;
+}
+
+/* ───────────────────────────────────────
+   HEADER
+─────────────────────────────────────── */
+#cabeca {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: auto;
+    padding: 20px;
+    background-color: white;
+    color: rgb(40, 83, 145);
+    text-align: center;
+}
+
+#cabeca img {
+    flex-shrink: 0;
+}
+
+#cabeca .texto-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: #4169E1;
+    margin: 0 0 4px 0;
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cabeca p {
+    margin: 0;
+}
+
+/* ───────────────────────────────────────
+   BODY- Cards
+─────────────────────────────────────── */
+#cardForm{
+    background-color: white;
+    margin-top: 25px;
+    width: 400px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 20px;
+
+    font-size: 11pt;
+    color: #5b4df8;
+    font-weight: bold;
+
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+}
+h2{
+    font-size: 14pt;
+    color: #091185;
+    padding-bottom: 15px;
+}
+
+/* ───────────────────────────────────────
+   BODY- Form
+─────────────────────────────────────── */
+#novaTarefa{
+    text-align: justify;
+    margin: auto;
+    line-height: 30px;
+}
+button{
+    background-color: #cdddf5;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+button:hover{
+    background-color: #5b4df8;
+    border: #5b4df8;
+}
+#AddTarefa{
+    display: block;
+    margin-left: 40%;
+    margin-top: 15px;
+}
+#nameTaf{
+    border-color: rgb(156, 183, 240);
+}
+#dataconclusao{
+    border-color: rgb(156, 183, 240);
+}
+
+/* ───────────────────────────────────────
+   BODY- Lista
+─────────────────────────────────────── */
+
+#cardList{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 20px;
+
+    font-size: 11pt;
+    color: #5b4df8;
+    font-weight: bold;
+
+    align-items: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#colTab{
+    font-size: 12pt;
+    color: #091185;
+}
+
+#listaTaf {
+    max-width: 900px;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+
+#listaTaf h2 {
+    color: #091185;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #cdddf5;
+    padding-bottom: 8px;
+}
+
+#listaTaf table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #cdddf5;
+}
+
+#colTab th {
+    background-color: #4169E1;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+#listaTaf tbody tr {
+    border-bottom: 1px solid #cdddf5;
+    transition: background-color 0.2s;
+}
+
+#listaTaf tbody tr:hover {
+    background-color: #e8f0fc;
+}
+
+#listaTaf tbody td {
+    padding: 12px 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    color: rgb(40, 83, 145);
+}
+
+#listaTaf label {
+    display: none;
+}
+
+#listaTaf select {
+    background-color: #cdddf5;
+    color: #28539d;
+    border: 1px solid #4169E1;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9pt;
+    cursor: pointer;
+}
+
+#listaTaf select:hover {
+    background-color: #4169E1;
+    color: white;
+}
+
+#listaTaf select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #a0b8f0;
+}
+
+/* ───────────────────────────────────────
+   FOOTER- Links e contato
+─────────────────────────────────────── */
+/* ───────────────────────────────────────
+   FOOTER
+─────────────────────────────────────── */
+footer {
+    margin-top: 35px;
+    background-color: #1a2f6e;
+    color: white;
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-desc {
+    font-size: 10pt;
+    color: #a0b8f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a {
+    color: #a0b8f0;
+    text-decoration: none;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-divider {
+    width: 200px;
+    border: none;
+    border-top: 1px solid #2e4a9e;
+}
+
+.footer-copy {
+    font-size: 9pt;
+    color: #6080b0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

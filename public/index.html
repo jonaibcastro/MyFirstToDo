@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyFirstToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Cabeçalho--> 
+    <header id="cabeca">
+        <img src="../images/icone.jpg" alt="Icone logo" width="100" height="100">
+        <div class="texto-header">
+            <h1>MyFirstToDo</h1>
+            <p>Eficiência no seu dia dia!</p>
+        </div>
+    </header>
+
+    <main>
+        <!--Card de nova tarefa--> 
+        <div id= "cardForm">
+            <h2>+ Adicione sua atividade</h2>
+            <section id="novaTarefa">
+                Nome da tarefa: <input type="text" id="nameTaf" placeholder="Ex: Revisar JavaScript"><br>
+                Data de conclusão: <input type="date" id="dataconclusao"><br>
+                <button id="AddTarefa">Adicionar tarefa</button>
+            </section>  
+        </div>  
+        
+        <div id ="cardList">
+            <section id="listaTaf">
+                <h2><span>✅</span> Lista de tarefas</h2>
+                <table>
+                    <thead id="colTab">
+                        <tr>
+                            <th>ID</th>
+                            <th>Tarefa</th>
+                            <th>Data de conclusão</th>
+                            <th>Status</th>
+                            <th>Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpoTabela">
+                        <!-- As tarefas vão aparecer aqui -->
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="/images/logo.jpg" alt="Icone logo" width="120" height="80" style="border-radius: 15px;" >
+            <!--<span>MyFirstToDo</span>-->
+        </div>
+        <p class="footer-desc">Organize suas tarefas com eficiência.</p>
+        <div class="footer-links">
+            <a href="https://github.com/jonaibcastro" target="_blank">🐙 GitHub</a>
+            <a href="mailto:jonaibcastro@email.com">📧 E-mail</a>
+        </div>
+        <hr class="footer-divider">
+        <p class="footer-copy">© 2026 MyFirstToDo — Desenvolvido por Jonaib Castro</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
