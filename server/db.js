@@ -3,7 +3,7 @@ import mysql from 'mysql2'
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: '',// se tiver senha no seu MySQL, coloca aqui
+    password: ''
     database: 'myfirsttodo'
 })
 
