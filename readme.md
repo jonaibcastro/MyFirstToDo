@@ -1,21 +1,21 @@
-# ✅ MyFirstToDo
+MyFirstToDo
 
 Aplicação web fullstack de gerenciamento de tarefas, desenvolvida como projeto de aprendizado.
 
-## 🚀 Tecnologias utilizadas
+Tecnologias utilizadas
 
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Node.js, Express
 - **Banco de dados:** MySQL
 
-## ⚙️ Funcionalidades
+Funcionalidades
 
 - Adicionar tarefas com nome e data de conclusão
 - Listar todas as tarefas
 - Atualizar o status da tarefa (Pendente, Em andamento, Concluído)
 - Deletar tarefas
 
-## 📁 Estrutura do projeto
+Estrutura do projeto
 
 ---------------------------------------------------------
 
@@ -33,7 +33,7 @@ MyFirstToDo/
 ├── package.json
 └── README.md
 =========================================================
-## 🛠️ Como rodar o projeto
+Como rodar o projeto
 
 1. Clone o repositório
 2. Instale as dependências: `npm install`
