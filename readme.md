@@ -20,7 +20,7 @@ Estrutura do projeto
 ---------------------------------------------------------
 
 MyFirstToDo/
-├── public/
+├── docs/
 │   ├── images/
 │   ├── index.html
 │   ├── style.css
@@ -42,6 +42,6 @@ Como rodar o projeto
 5. Inicie o servidor: `node server/server.js`
 6. Acesse: `http://localhost:3000`
 
-Autor
+Autor:
 
 Desenvolvido por **Jonaib Castro**

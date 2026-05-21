@@ -4,7 +4,7 @@ import router from './routes.js' // impotando rotas para o servidor
 
 const app= express() // variável app para criar funções
 
-app.use(express.static('public'))
+app.use(express.static('docs'))
 app.use(express.json())     // ← para ler o corpo das requisições
 app.use('/api', router)     // ← todas as rotas começam com /api
 
